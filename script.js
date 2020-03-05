@@ -60,9 +60,11 @@ generate.addEventListener("click", function(){
         characters = characters.concat(symbol);
     }
 
+    // alert(genPassword(char, characters));
+
     // when the password is generated it will eiter be displayed in on the page
-    
-    document.getElementById(output).textContent = genPassword(char, characters);
+
+    document.getElementById("output").value = genPassword(char, characters);
 
     // console.log(genPassword(char, characters))
 
