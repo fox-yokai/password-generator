@@ -1,0 +1,11 @@
+.application {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    padding: 20px;
+    width: 100%;
+}
+
+#output {
+    width: 100%;
+}
